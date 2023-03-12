@@ -1,1 +1,143 @@
 /* TODO: 보기 좋은 나만의 아고라 스테이츠를 위해서 CSS를 수정하세요. */
+* {
+    box-sizing: border-box;  /*모든요소에 box크기를 border로 지정합니다.*/
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(5, 30, 5);
+}
+main{
+ margin-left: 45%;
+}
+body {
+    width: 100vw;  
+    display: flex;
+    flex-direction: column;  /* 헤더와 메인을 위아래로 정렬합니다. */
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/20/8d/37/208d3703fb0e2bcb8f75e65320545856.jpg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: rgb(136, 39, 39);
+    font-family:serif;
+
+}
+
+div.discussion__avatar--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discussion__container { 
+    width: 540px;
+    display: flex;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    align-items:  center; /* 세번째 박스의 체크박스를 중앙정렬하려고 사용 */
+    background: rgba( 255, 255, 255, 0.35 );
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18); 
+
+}
+div.discussion__content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px
+}
+h2.discussion__title{
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 80px;
+}
+div.discussion__information {
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.discussion__avatar--image {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 70px;
+}
+li {
+    list-style: none;
+
+}
+
+    
+/*입력 하는 부분 */
+.form__container {
+    background-color: rgba(169, 144, 141, 0.944); opacity : 0.7;
+    border-radius: 2%;
+    width: 540px;
+    height: 18rem;
+    padding: 10px;
+    font-size: 1rem;
+    }
+
+
+input[type="text"]{
+    width: 85%;
+    height: 30px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#story{
+    width: 85%;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 5px;
+   
+}
+
+input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    margin-top: 7px;
+    border-radius : 50px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-left: 35%;
+    
+    
+}
+.form__input--name {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 30px;
+   
+}
+.form__input--title {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+.form__textbox {
+    margin-top: 10px;
+   text-align: center;
+   margin-left: 30px;
+}
+.discussion__answered {
+margin-right: 10%;
+}
+
+
